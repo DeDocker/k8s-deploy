@@ -1,6 +1,6 @@
 FROM alpine:3.5
 
-ENV KUBE_VERSION=1.5
+ENV KUBE_VERSION=1.6
 
 RUN apk add --no-cache wget ca-certificates gettext
 
